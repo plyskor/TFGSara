@@ -6,15 +6,13 @@
 \addvspace {15\p@ }
 \contentsline {chapter}{\numberline {2}Detalles computacionales}{9}{chapter.2}
 \addvspace {15\p@ }
-\contentsline {chapter}{\numberline {3}Resultados}{11}{chapter.3}
+\contentsline {chapter}{\numberline {3}Resultados y discusi\IeC {\'o}n}{11}{chapter.3}
 \addvspace {-8\p@ }
 \contentsline {section}{\numberline {3.1}Estabilidad de estructuras}{11}{section.3.1}
 \addvspace {-8\p@ }
-\contentsline {section}{\numberline {3.2}Acidez en fase gas de mol\IeC {\'e}culas}{14}{section.3.2}
+\contentsline {section}{\numberline {3.2}Acidez en fase gas de mol\IeC {\'e}culas}{15}{section.3.2}
 \addvspace {-8\p@ }
-\contentsline {section}{\numberline {3.3}Obtenci\IeC {\'o}n de propiedades termoqu\IeC {\'\i }micas y c\IeC {\'a}lculo de acideces}{17}{section.3.3}
+\contentsline {subsection}{\numberline {3.2.1}Hidrataci\IeC {\'o}n espec\IeC {\'\i }fica}{18}{subsection.3.2.1}
 \addvspace {15\p@ }
-\contentsline {chapter}{\numberline {4}Discusi\IeC {\'o}n}{19}{chapter.4}
-\addvspace {15\p@ }
-\contentsline {chapter}{\numberline {5}Conclusi\IeC {\'o}n}{21}{chapter.5}
+\contentsline {chapter}{\numberline {4}Conclusi\IeC {\'o}n}{21}{chapter.4}
 \addvspace {15\p@ }

@@ -16,3 +16,7 @@ main.log
 *.aux
 *.gz
 *.aux
+*.aux
+*.out
+*.gz
+*.toc
