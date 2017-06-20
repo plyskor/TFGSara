@@ -20,3 +20,5 @@ main.log
 *.out
 *.gz
 *.toc
+*.aux
+*.gz

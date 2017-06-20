@@ -2,15 +2,19 @@
 
 Para el diseño de la estructura de todos los ácidos a estudiar se ha utilizado el programa Gaussian09, cuyo software resuelve la ecuación de Schrödinger basándose en la teoría de orbitales moleculares para obtener una serie de propiedades atómicas y moleculares.
 
-Los cálculos DFT expuestos en este trabajo se han llevado acabo también con el programa Gaussian09, se ha utilizado el funcional B3LYP que es un método híbrido que contiene elementos DFT y la teoría Hartree-Fock, HF se utiliza para expresar la energía de intercambio en la aproximación del potencial de correlación de intercambio en la ecuación de kohn-Sham. Se realizaron optimizaciones de estructura completa utilizando la base 6-311G**, con la opción "opt+freq" como tipo de trabajo, donde todos los puntos estacionarios son mínimos verdaderos, no hay frecuencias imaginarias. Los datos de energía HF se calcularon utilizando la base 6-311+G(2df,2p) por su mayor precisión.
+Los cálculos DFT expuestos en este trabajo se han llevado acabo también con el programa Gaussian09, se ha utilizado el funcional B3LYP que es un método híbrido que contiene elementos DFT y la teoría Hartree-Fock, HF se utiliza para expresar la energía de intercambio en la aproximación del potencial de correlación de intercambio en la ecuación de kohn-Sham. Se realizaron optimizaciones de estructura completa utilizando la base 6-311G**, con la opción "opt+freq" como tipo de trabajo, donde ningún compuesto tiene frecuencias imaginarias en la geometría optimizada final. Los datos de energía total Hartree-Fock se calcularon utilizando la base 6-311+G(2df,2p) por su mayor precisión.
 
-Las componentes termodinámicas se calcularon utilizando métodos estándar \cite {quimica4}, teniendo en cuenta las energías del punto cero (ZPE) y las correcciones de temperatura de la entalpía (TCE) y la energía libre de Gibbs (GFE). Al usar la base mencionada antes (6-311G**), estos números llevan una corrección, las energías escaladas serían las siguientes: \\
+
+Las componentes termodinámicas se calcularon utilizando métodos estándar \cite {quimica4}, teniendo en cuenta las energías del punto cero (ZPE) y las correcciones del punto cero y térmicas de la entalpía (TCE) y la energía libre de Gibbs (GFE). Al usar la base mencionada antes (6-311G**), estos números llevan una corrección, las energías escaladas serían las siguientes: \\
 $$ H (0K) = E_{HF} + 0.9887*ZPE $$ 
 $$ H (298K) = E_{HF} + TCE + ZPE - 0.9887*ZPE $$ 
 $$G = E_{HF} + GFE $$
 
-Se realizó un análisis de poblaciones NBO, éste se basa en un método para transformar de manera óptima una función de onda en forma localizada, correspondiente a los elementos de un centro (pares solitarios-LP), y de dos centros (enlaces-BD) tal como se observarían en la estructura de Lewis de una molécula. En dicho análisis, el conjunto de bases orbitales atómicas a la entrada se transforma a través de orbitales atómicos naturales (NAOs) y orbitales híbridos (NHOs) en orbitales de enlace natural (NBOs). Los NBO obtenidos corresponden a la imagen normalmente utilizadda de Lewis donde los enlaces de dos centros y electrones no enlazantes estan localizados.
+Se consideró la conformación de energía más baja de cada compuesto en el estudio de estabilidad y se han diseñado nuevas estructuras para hacer un análisis más extenso de la acidez en fase gas.
+
+Se realizó un análisis de poblaciones NBO, éste se basa en un método para transformar de manera óptima una función de onda en forma localizada, correspondiente a los elementos de un centro (pares solitarios-LP), y de dos centros (enlaces-BD) tal como se observarían en la estructura de Lewis de una molécula. En dicho análisis, el conjunto de bases orbitales atómicas a la entrada se transforma a través de orbitales atómicos naturales (NAOs) y orbitales híbridos (NHOs) en orbitales de enlace natural (NBOs). Los NBO obtenidos corresponden a la imagen normalmente utilizadda de Lewis donde los enlaces de dos centros y electrones no enlazantes estan localizados \cite{quimica5}.
 
 Para determinar los máximos de densidad de la molécula se ha utilizado el método AIM....{\bfseries voy a buscar info}
 
-G4
+Se uso el método compuesto G4 para una mayor precisión de resultados, previamente dudosos, con el fin de compararlos con los experimentales.
+ 
