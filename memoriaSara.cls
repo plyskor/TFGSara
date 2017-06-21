@@ -21,8 +21,9 @@
 \usepackage{appendix}
 \usepackage[labelfont=bf]{caption}
 \usepackage{enumerate}
-\setlength{\parindent}{0cm}
-\setlength{\parskip}{4mm} 
+\setlength{\parindent}{1cm}
+\setlength{\parskip}{20pt}
+\DeclareUnicodeCharacter{FEFF}{ }
 
 \usepackage{rotating}
 \usepackage{booktabs}
