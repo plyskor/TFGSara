@@ -4,7 +4,7 @@
 \addvspace {15\p@ }
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{7}{chapter.1}
 \addvspace {15\p@ }
-\contentsline {chapter}{\numberline {2}Detalles computacionales}{11}{chapter.2}
+\contentsline {chapter}{\numberline {2}Detalles computacionales}{9}{chapter.2}
 \addvspace {15\p@ }
 \contentsline {chapter}{\numberline {3}Resultados y discusi\IeC {\'o}n}{13}{chapter.3}
 \addvspace {-8\p@ }
