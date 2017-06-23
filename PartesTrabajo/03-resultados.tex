@@ -157,11 +157,18 @@ Dicha estabilidad se debe a que la estructura del ácido carbónico es plana (tr
 	\includegraphics[scale=0.3]{prezimagen2}
 	\caption{Isómeros más estables  de los ácidos objeto de estudio.}
 \end{figure}
-{\bfseries\textcolor{red}{ME HE QUEDADO POR AQUI, VOY A DARLE CAÑA A PPIQ}}
+
 \section{Acidez en fase gas de moléculas}
 
-Con el fin de estudiar el impacto de estas sustituciones en la acidez en fase gas de los ácidos, se han diseñado más estructuras sustituyendo hidrógenos por fluor. Para calcular la acidez en fase gas se han hecho los mismos cálculos computacionales con sus aniones.
-También se ha sustituido el grupo ácido por otro para así ver el cambio de acidez en fase gas.
+
+La acidez en fase gaseosa de un ácido neutro HA se refiere al siguiente equilibrio:
+
+$$HA\xrightleftharpoons{\Delta G} H^+ + A^-$$
+
+Donde $\Delta G$ es la acidez en fase gaseosa, dicha cantidad es de interés fundamental y proporciona informacion valiosa sobre las propiedades intrínsecas, independientes del disolvente de los ácidos. \cite{quimica3}
+
+Con el fin de estudiar el impacto de las sustituciones de hidrógenos por halógenos en la acidez en fase gas de los ácidos, se han diseñado más estructuras sustituyendo hidrógenos por flúor. Para calcular la acidez en fase gas se han hecho los mismos cálculos computacionales con sus aniones. También se ha sustituido el grupo ácido por otro para así ver la variación de acidez.
+
 
  \begin{table}[H]
      \centering
@@ -188,12 +195,22 @@ $HCF_2SO_3H$ & 	297,86 & -- & 298,3781185\\ \hline
 $HPO_3$ & 303,54 & 303,3 & 300,9305154\\ \hline
 $HNO_3$ & 315,01 & 317,8 & 309,4734993\\ \hline
 $H_3PO_4$ & 321,44	& -- & 332,5547603 \\ \hline
+$HF_2PO_4$ & 385,70 & -- &  \\ \hline
+$HFSO_4$ & 282,97 & -- &\\ \hline
+$HClSO_4$ & 293,26 & -- & 288,50\\ \hline
+$HFCO_3$ & 309,08 & -- &\\ \hline
+$HClCO_3$ & 312,51 & -- &\\ \hline
+$H_2ClPO_4$ & 336,99 & -- &\\ \hline
+$HCl_2PO_4$ & 332,23 & -- &\\ \hline
+$H_2FPO_4$ & 329,26 & -- &\\ \hline
      \end{tabular}
      \caption{Acideces en fase gas con y sin hidratación específica y el valor experimental en Kcal/mol. $\cite{quimica3}$ }
      \label{tab:3.9}
  \end{table}
+
+Se han estudiado distintos tipos de ácidos, por un lado, los oxácidos estudiados en la parte 1 del presente trabajo añadiendo alguno más y, por otro lado, algunos ácidos orgánicos de interés, así se hace un estudio de acidez en fase gaseosa más extenso y riguroso.
  
- Los resultados dados en la Tabla 3.9 apoyan el siguiente orden de acidez intrínseca para los ácidos orgánicos: $ CF_3SO_3H>HCF_2SO_3H>H_2CFSO_3H>CF_3COSH>H_3CSO_3H>CF_3COOH>HCF_2COSH>HCF_2COOH>H_2CFCOSH>H_2CFCOOH>H_3CCOSH>H_3COOH $, y el siguiente para los oxácidos: $ H_2S_2O_6>FHSO_3>H_2SO_4>HPO_3>HNO_3>H_3PO_4>H_2CO_3 $.
+ Los resultados dados en la Tabla 3.8 apoyan el siguiente orden de acidez intrínseca para los ácidos orgánicos: $ CF_3SO_3H>HCF_2SO_3H>H_2CFSO_3H>CF_3COSH>H_3CSO_3H>CF_3COOH>HCF_2COSH>HCF_2COOH>H_2CFCOSH>H_2CFCOOH>H_3CCOSH>H_3COOH $, y el siguiente para los oxácidos: $ H_2S_2O_6>FHSO_3>H_2SO_4>HPO_3>HNO_3>H_3PO_4>H_2CO_3 $.
 
 Los ácidos llamados normalmente fuertes ($ CF_3SO_3H$, $FHSO_3$, $HCF_2SO_3H$, $H_2SO_4$, $HPO_3$, $H_2CFSO_3H$) están en un intervalo de acidez relativamente estrecho (10,7 kcal/mol), se tienen algunos valores experimentales, donde la variación con los calculados computacionalmente no llega a las 3 Kcal/mol exceptuando al $CF_3SO_3H$ y al $FHSO_3$ que difieren de 6-7 kcal/mol, al tener una diferencia tan alta, se ha llevado a cabo un cálculo G4 para estos dos últimos ácidos con el fin de ver si el primer cálculo sobreestima la acidez de dichos ácidos. 
 \begin{table}[H]
@@ -207,7 +224,9 @@ Los ácidos llamados normalmente fuertes ($ CF_3SO_3H$, $FHSO_3$, $HCF_2SO_3H$, 
 \caption{Acideces en fase gas con el método G4 en Kcal/mol}
 \end{table}
 
-La acidez es proporcional a la tendencia del ácido a perder un protón. Se ve como el orden de acidez sustituyendo el grupo ácido es $ COOH {<} COSH {<} SO3H $, ya que en los aniones correspondientes se debe tener en cuenta la estabilización por resonancia, deslocalización de enlaces $\pi$, que es mayor en el $SO3^-$ ya que hay mayor número de átomos, en cuanto a las otras dos estructuras, los iones $COS^-$ y $COO^-$ son estabilizados por resonancia, pero en el $COS^-$ es mayor, se puede explicar observando la carga Mulliken en dichos átomos dada en la tabla 3.11. Ver figura 3.4.
+En vista de los resultados obtenidos con el método compuesto G4 se observa como la acidez no varía prácticamente nada (1,5Kcal/mol) en comparación con el cálculo DFT, pero podemos decir que dicho método sobreestima la acidez de dichos compuestos y como era de esperar, el método G4 describe mejor su acidez que el método DFT B3LYP/6-311G**.
+
+La acidez es proporcional a la tendencia del ácido a perder un protón. Se ve como el orden de acidez sustituyendo el grupo ácido es $ COOH {<} COSH {<} SO3H $, ya que en los aniones correspondientes se debe tener en cuenta la estabilización por resonancia, deslocalización de enlaces $\pi$, que es mayor en el $SO3^-$ ya que hay mayor número de átomos, en cuanto a las otras dos estructuras, los iones $COS^-$ y $COO^-$ son estabilizados por resonancia, pero en el $COS^-$ es mayor, se puede explicar observando la carga natural en dichos átomos dada en la tabla 3.10. Ver figura 3.4.
 
 \begin{figure}[H]
 	\centering
@@ -219,13 +238,13 @@ La acidez es proporcional a la tendencia del ácido a perder un protón. Se ve c
     \centering
     \begin{tabular}{|c|c|c|c|c|c|}
     \hline
-    $SO3^-$ & Carga Mulliken &$COS^-$ & Carga Mulliken & $COO^-$ & Carga Mulliken \\ \hline
-    S & 1.007134 & S & -0.503466 & C & 0.201081 \\ \hline
-    O & -0.575748 & O & -0.381057 & O & -0.482870 \\ \hline
-    O & -0.575646 & C & -0.018142 & O & -0.491545 \\ \hline
-    O & -0.575761 & -- & -- & -- & -- \\ \hline
+    $SO3^-$ & Carga Natural &$COS^-$ & Carga Natural & $COO^-$ & Carga Natural \\ \hline
+    S & 2.21439 & C & 0.22678 & C & 0.68743 \\ \hline
+    O & -0.97579 & O & -0.61533 & O & -0.73587 \\ \hline
+    O & -0.97575 & S & -0.48786 & O & -0.74097 \\ \hline
+    O & -0.97579 & -- & -- & -- & -- \\ \hline
     \end{tabular}
-    \caption{Carga Mulliken de la moléculas $CF_3-$ grupo ácido}
+    \caption{Cargas naturales de la moléculas $CF_3-$ grupo ácido}
 \end{table}
 
 Comparamos también sustitución de átomos de flúor por átomos de hidrógeno en el grupo $CF_3$ de la molécula. En la tabla \ref{tab:3.9} se ve que cuantos más átomos de flúor haya en la molécula mayor es su acidez, esto se debe a la elevada electronegatividad del flúor, cuántos más átomos de flúor haya, mayor capacidad atractora tendrá el grupo, y mayor será el efecto inductivo, polarización de carga transmitida por enlaces $\sigma$, si se observa la carga Mulliken (tabla 3.12) en los átomos de las moléculas se comprueba su estabilización por resonancia. Ver figura 3.5.
