@@ -228,15 +228,15 @@ Los ácidos llamados normalmente fuertes ($ CF_3SO_3H$, $FHSO_3$, $HCF_2SO_3H$, 
 	\begin{tabular}{|c|c|c|}
 		\hline
 		Ácido & $\Delta G$ & $\Delta G_{exp}$ \\ \hline
-		$CF_3SO_3H$ &{\bfseries dato }& 299,5 \\ \hline
+		$CF_3SO_3H$ & 291,9 & 299,5 \\ \hline
 		$FHSO_3$ & 294,8 & 299,8 \\ \hline 
 	\end{tabular}
 \caption{Acideces en fase gas con el método G4 en Kcal/mol}
 \end{table}
 
-En vista de los resultados obtenidos con el método compuesto G4 se observa como la acidez no varía prácticamente nada (1,5Kcal/mol) en comparación con el cálculo DFT, pero podemos decir que dicho método sobreestima la acidez de dichos compuestos y como era de esperar, el método G4 describe mejor su acidez que el método DFT B3LYP/6-311G**.
+En vista de los resultados obtenidos con el método compuesto G4 se observa como la acidez no varía prácticamente nada (1,5Kcal/mol) en comparación con el cálculo DFT, pero podemos decir que dicho método sobreestima la acidez del compuesto inórgánico y subestima la del ácido orgánico y, como era de esperar, el método G4 describe mejor su acidez que el método DFT B3LYP/6-311G**.
 
-La acidez es proporcional a la tendencia del ácido a perder un protón. Se ve como el orden de acidez sustituyendo el grupo ácido es $ COOH {<} COSH {<} SO3H $, ya que en los aniones correspondientes se debe tener en cuenta la estabilización por resonancia, deslocalización de enlaces $\pi$, que es mayor en el $SO3^-$ ya que hay mayor número de átomos, en cuanto a las otras dos estructuras, los iones $COS^-$ y $COO^-$ son estabilizados por resonancia, pero en el $COS^-$ es mayor, se puede explicar observando la carga natural en dichos átomos dada en la tabla 3.10. Ver figura 3.4.
+La acidez es proporcional a la tendencia del ácido a perder un protón. Se ve como el orden de acidez sustituyendo el grupo ácido es $ COOH {<} COSH {<} SO3H $, ya que en los aniones correspondientes se debe tener en cuenta la estabilización por resonancia, deslocalización de enlaces $\pi$ (figura 3.6), que es mayor en el $SO3^-$ ya que hay mayor número de átomos, en cuanto a las otras dos estructuras, los iones $COS^-$ y $COO^-$ son estabilizados por resonancia, pero en el $COS^-$ es mayor, se puede explicar observando la carga natural en dichos átomos dada en la tabla 3.9. Ver figura 3.5.
 
 \begin{figure}[H]
 	\centering
@@ -257,39 +257,41 @@ La acidez es proporcional a la tendencia del ácido a perder un protón. Se ve c
     \caption{Cargas naturales de la moléculas $CF_3-$ grupo ácido}
 \end{table}
 
-Comparamos también sustitución de átomos de flúor por átomos de hidrógeno en el grupo $CF_3$ de la molécula. En la tabla \ref{tab:3.8} se ve que cuantos más átomos de flúor haya en la molécula mayor es su acidez, esto se debe a la elevada electronegatividad del flúor, cuántos más átomos de flúor haya, mayor capacidad atractora tendrá el grupo, y mayor será el efecto inductivo, polarización de carga transmitida por enlaces $\sigma$, si se observa la distancia O-H de cada molécula y las cargas naturales de dichos átomos (tabla 3.12) se comprueba la facilidad de romper dicho enlace en presencia de átomos electronegativos.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.8]{HOMOOrbitale}
+\caption{Orbitales moleculares HOMO.}
+\end{figure}
+
+Comparamos también sustitución de átomos de flúor por átomos de hidrógeno en el grupo $CF_3$ de la molécula. En la tabla \ref{tab:3.8} se ve que cuantos más átomos de flúor haya en la molécula mayor es su acidez, esto se debe a la elevada electronegatividad del flúor, cuántos más átomos de flúor haya, mayor capacidad atractora tendrá el grupo, y mayor será el efecto inductivo, polarización de carga transmitida por enlaces $\sigma$, si se observan los máximos de densidad en el enlace O-H de cada molécula, (figura 3.8) y las cargas naturales de dichos átomos (tabla 3.10) se comprueba la facilidad de romper dicho enlace en presencia de átomos electronegativos.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.4]{grupo-COOH}
 	\caption{Ácidos carboxílicos con diferentes sustituciones de hidrógenos por átomos de flúor.}
 \end{figure}
-\begin{table}[H]
-	\centering
-	\begin{tabular}{|c|c|c|c|}
-		\hline
-		Ácido & d(O-H) & Carga natural del $H_{acido}$ & Carga natural del O\\ \hline
-		$CF_3COOH$ & 0.96965 & 0.48893 & -0.66183 \\ \hline
-		$HCF_2COOH$ & 0.96960 & 0.52359 & -0.69699 \\ \hline
-		$H_2FCOOH$ & 0.96966 & 0.47979 & -0.66617 \\ \hline
-		$H_3CCOOH$ & 0.96876 & 0.47546 & -0.69688 \\ \hline
-	\end{tabular}
-	\caption{Distancias y cargas naturales del OH del grupo carboxi.}
-\end{table}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{AIM-CH3COOH}
+\caption{Máximos de densidad de enlace.}
+\end{figure}
+
+Como se ven en la figura 3.8 a medida que aumentamos el número de átomos de flúor, disminuye la densidad electrónica debido a que, como se ha dicho antes, el flúor es un grupo atractor, el enlace O-H se debilita facilitando su ruptura, traduciéndose esto en un aumento de su acidez.
 \begin{table}[H]
     \centering
     \begin{tabular}{|c|c|c|c|c|c|c|c|}
     \hline
-    $CF_3-$ & Carga Mull & $HCF_2-$ & Carga Mull & $H_2CF-$ & Carga Mull & $H_3C-$ & Carga Mull \\ \hline
-     C & 0.549474 &  C & 0.382878 & C & 0.151906 & C & -0.189412 \\ \hline
-     C & 0.201081 &  C & 0.204525 & C & 0.203532 & C & 0.234883 \\ \hline
-     O & -0.482870 & O & -0.510709 & O & -0.527054 & O & -0.519973 \\ \hline
-     O & -0.491545 & O & -0.488498 &  O & -0.493739 & O & -0.525498 \\ \hline
-     F & -0.261497 & F & -0.287967 & F & -0.334645 &  & \\ \hline
-     F & -0.261531 & F & -0.300230 &  &  &  & \\ \hline
-     F & -0.253112 &  &  &  &  &  & \\ \hline
+    $CF_3-$ & Carga Nat. & $HCF_2-$ & Carga Nat. & $H_2CF-$ & Carga Nat.l  & $H_3C-$ & Carga Nat. \\ \hline
+     C & 1.01480 &  C & 0.51364 & C & -0.00147 & C & -0.68072 \\ \hline
+     C & 0.72404 &  H & 0.21440 & H & 0.18224 & H & 0.22348 \\ \hline
+     O & -0.53625 & C & 0.73986 & H & 0.18224 & H & 0.22348 \\ \hline
+     O & -0.66183 & O & -0.57168 & C & 0.78381 & H & 0.21946 \\ \hline
+     H & 0.48893 & O & -0.69699 & O & -0.59271 & C & 0.82796 \\ \hline
+     F & -0.34630 & H & 0.52359 & O & -0.66617 & O & -0.59224 \\ \hline
+     F & -0.34629 & F & -0.36121 & H & 0.47979 & O & -0.69688 \\ \hline
+     F & -0.33709 & F & -0.36161 & F & -0.36772 & O & 0.47546 \\ \hline
     \end{tabular}
-    \caption{Carga Mulliken de moléculas grupo-COOH con las cargas de hidrógenos sumadas dentro de los átomos pesados.}
+    \caption{Carga Natural de moléculas con el grupo carboxi}
 \end{table}
 
 {\bfseries ESTA TABLA, LA 3.12 LA QUITO?}
