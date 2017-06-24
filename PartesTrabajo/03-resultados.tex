@@ -126,7 +126,6 @@ $Iso_{12}$ & 23,2 & $Iso_{12}$ & 0,5 \\ \hline
 \caption{Diferencias de la energía libre de Gibbs en Kcal/mol de cada isómero conformacional del ácido fosfórico sustituyendo un hidrógeno por un halógeno.}
 \end{center}
 \end{table}
-\newpage
 
 Por último, al sustituir un hidrógeno más por otro halógeno las moléculas de mayor estabilidad son el isómero 1 para el  $HF_2PO_4$, ésto es debido a que es el único isómero que forma un enlace de hidrógeno con el flúor (d(H--F)=2,2$\Armstrong$), en el caso del  $HCl_2PO_4$ el isómero 6, hay que tener en cuenta que hay dos isómeros más de esta última molécula muy parecidos en energía, son las únicas con geometría tetraédrica, en el caso del isómero 6, no hay tanto impedimento estérico por parte de los átomos de cloro, traduciéndose ésto en una mayor estabilidad de la molécula. 
 
@@ -205,22 +204,24 @@ $HCF_2SO_3H$ & 	297,9 & -- & 298,4\\ \hline
 $HPO_3$ & 303,5 & 303,3 & 300,9\\ \hline
 $HNO_3$ & 315,0 & 317,8 & 309,5\\ \hline
 $H_3PO_4$ & 321,4	& -- & 332,6 \\ \hline
+$H_2FPO_4$ & 329,3 & -- &\\ \hline
 $HF_2PO_4$ & 385,7 & -- &  \\ \hline
+$H_2ClPO_4$ & 337,0 & -- &\\ \hline
+$HCl_2PO_4$ & 332,2 & -- &\\ \hline
 $HFSO_4$ & 283,0 & -- &\\ \hline
 $HClSO_4$ & 293,3 & -- & 288,5\\ \hline
 $HFCO_3$ & 309,1 & -- &\\ \hline
 $HClCO_3$ & 312,5 & -- &\\ \hline
-$H_2ClPO_4$ & 337,0 & -- &\\ \hline
-$HCl_2PO_4$ & 332,2 & -- &\\ \hline
-$H_2FPO_4$ & 329,3 & -- &\\ \hline
+
+
      \end{tabular}
      \caption{Acideces en fase gas con y sin hidratación específica y el valor experimental en Kcal/mol. $\cite{quimica3}$ }
-     \label{tab:3.8}
+     \label{tab:3.7}
  \end{table}
 
 Se han estudiado distintos tipos de ácidos, por un lado, los oxácidos estudiados en la parte 1 del presente trabajo añadiendo alguno más y, por otro lado, algunos ácidos orgánicos de interés, así se hace un estudio de acidez en fase gaseosa más extenso y riguroso.
  
- Los resultados dados en la Tabla 3.8 apoyan el siguiente orden de acidez intrínseca para los ácidos orgánicos: $ CF_3SO_3H>HCF_2SO_3H>H_2CFSO_3H>CF_3COSH>H_3CSO_3H>CF_3COOH>HCF_2COSH>HCF_2COOH>H_2CFCOSH>H_2CFCOOH>H_3CCOSH>H_3COOH $, y el siguiente para los oxácidos: $ H_2S_2O_6>FHSO_3>H_2SO_4>HPO_3>HNO_3>H_3PO_4>H_2CO_3 $.
+ Los resultados dados en la Tabla 3.7 apoyan el siguiente orden de acidez intrínseca para los ácidos orgánicos: $ CF_3SO_3H>HCF_2SO_3H>H_2CFSO_3H>CF_3COSH>H_3CSO_3H>CF_3COOH>HCF_2COSH>HCF_2COOH>H_2CFCOSH>H_2CFCOOH>H_3CCOSH>H_3COOH $, y el siguiente para los oxácidos: $ H_2S_2O_6>FHSO_3>H_2SO_4>HPO_3>HNO_3>H_3PO_4>H_2CO_3 $.
 
 Los ácidos llamados normalmente fuertes ($ CF_3SO_3H$, $FHSO_3$, $HCF_2SO_3H$, $H_2SO_4$, $HPO_3$, $H_2CFSO_3H$) están en un intervalo de acidez relativamente estrecho (10,7 kcal/mol), se tienen algunos valores experimentales, donde la variación con los calculados computacionalmente no llega a las 3 Kcal/mol exceptuando al $CF_3SO_3H$ y al $FHSO_3$ que difieren de 6-7 kcal/mol, al tener una diferencia tan alta, se ha llevado a cabo un cálculo G4 para estos dos últimos ácidos con el fin de ver si el primer cálculo sobreestima la acidez de dichos ácidos. 
 \begin{table}[H]
@@ -272,7 +273,7 @@ Comparamos también sustitución de átomos de flúor por átomos de hidrógeno 
 \end{figure}
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{AIM-CH3COOH}
+\includegraphics[scale=0.6]{AIM-CH3COOH}\cite{AIM}
 \caption{Máximos de densidad de enlace.}
 \end{figure}
 
@@ -289,16 +290,24 @@ Como se ven en la figura 3.8 a medida que aumentamos el número de átomos de fl
      H & 0.48893 & O & -0.69699 & O & -0.59271 & C & 0.82796 \\ \hline
      F & -0.34630 & H & 0.52359 & O & -0.66617 & O & -0.59224 \\ \hline
      F & -0.34629 & F & -0.36121 & H & 0.47979 & O & -0.69688 \\ \hline
-     F & -0.33709 & F & -0.36161 & F & -0.36772 & O & 0.47546 \\ \hline
+     F & -0.33709 & F & -0.36161 & F & -0.36772 & H & 0.47546 \\ \hline
     \end{tabular}
     \caption{Carga Natural de moléculas con el grupo carboxi}
 \end{table}
 
-{\bfseries ESTA TABLA, LA 3.12 LA QUITO?}
-
+Como en los ácidos orgánicos, en los oxoácidos al sustituir un hidrógeno por un flúor también aumenta la acidez de la molécula, si nos fijamos en la tabla 3.7 situada al inicio de esté apartado, comprobamos que la molécula $HFCO_3$ es más ácida que el $H_2CO_3$, como hemos dicho antes por el efecto inductivo del flúor, ya que es un grupo atractor, en el caso de sustituir el hidrógeno por un cloro, pasa exactamente lo mismo, aumenta la acidez debido a su electronegatividad, pero ésta es menor si lo comparamos con la molécula con flúor ya que el cloro es menos electronegativo, pasa lo mismo en el caso del $H_2SO_4$, por otro lado, cuando añades HF a dicho ácido, también aumenta la acidez (ver FHSO3) por el mismo motivo.\\
+{\bfseries con el fosfórico pasa al reves, como puede ser!!! }
 \subsection{Hidratación específica}
-Se estudia el impacto que tiene la hidratación específica en la acidez en fase gaseósa de las moléculas anteriores, en la tabla \ref{tab:3.8} también se indica los valores de acidez en presencia de una molécula de agua en el sitio ácido.
-A la vista de los resultados expuestos, la acidez aumenta al haber una molécula de agua en el punto acídico, ya que se forman enlaces de hidrógeno fuertes como se puede comprobar mirando las distancias d(O-H) y teniendo en cuenta la existencia de un máximo de densidad en dichos enlaces en la tabla 3.13. 
+Se estudia el impacto que tiene poner una molécula de agua en el sitio activo de los ácidos anteriormente estudiados en la acidez en fase gas, en la tabla \ref{tab:3.7} también se indica los valores de acidez en presencia de la molécula de agua en el sitio ácido.\\
+A la vista de los resultados expuestos, la acidez aumenta al haber una molécula de agua en el punto acídico, debido a la formación de enlaces de hidrógeno fuertes como se verifica observando la existencia de máximos de densidad en dichos enlaces en la figura 3.9, y mirando las distancias d(O···H)  en la tabla 3.11.
+
+\begin{figure} [H]
+	\centering
+	\includegraphics[scale=0.6]{AIM-CH3COOH-H2O}\cite{AIM}
+	\caption{Máximos de densidad de enlace}
+\end{figure}
+
+Al aumentar el número de átomos de flúor de la molécula, disminuye la fuerza de enlace 
 
 {\bfseries TENGO QUE MIRAR DETENIDAMENTE EL H3PO4 Y H3PO4-H2O}
 
@@ -306,7 +315,7 @@ A la vista de los resultados expuestos, la acidez aumenta al haber una molécula
 	\centering
 	\begin{tabular}{|c|c|c|c|}
 		\hline
-		Ácidos-$H_2O$ & distancia	& d(O$\cdots$H) ($\Armstrong$) & $Max_{densidad} (u. a.)$ \\ \hline
+		Ácidos-$H_2O$ & distancia	& d(O$\cdots$H) ($\Armstrong$) & $Max_{densidad, BPC} (u. a.)$ \\ \hline
 		$CF_3COOH-H_2O$ & $d(O_9-H_5)$ &1,693&0,04665\\ \cline{2-4}
 & $d(O_3-H_{10})$ & 2,137 & 0,01852 \\ \hline
  $CF_3COSH-H_2O$ & $d(O_9-H_8)$	 & 1,923 & 0,03014 \\ \cline{2-4}
@@ -351,7 +360,9 @@ A la vista de los resultados expuestos, la acidez aumenta al haber una molécula
 	\includegraphics[scale=0.2]{acidos-h2o}
 	\caption{Ácidos-$H_2O$}
 \end{figure}
- Teniendo en cuenta el análisis NBO de dichas moléculas también comprobamos la mayor facilidad para romper el enlace O-H cuando se expone el ácido a la hidratación específica. En la molécula $H_3COOH$, los dos pares libres de electrones del átomo $O_7$ donan electrones, en forma de energía de 5,69 y 44,35 Kcal/mol, al enlace $C_5=O_6$ mientras que en la molécula de $H_3COOH-H_2O$, al formar un enlace de hidrógeno, los pares libres del $O_7$ donan, expresando el valor en energía, 7,28 y 53,66 Kcal/mol , por lo que el enlace O-H se debilita, y en consecuencia aumenta la acidez de dicha molécula.
+ Teniendo en cuenta el análisis NBO de dichas moléculas también se confirma la mayor facilidad para romper el enlace O-H cuando se expone el punto activo del ácido a una molécula de agua.
+ 
+ En la molécula $H_3COOH$, los dos pares libres de electrones del átomo $O_7$ donan electrones, en forma de energía de 5,69 y 44,35 Kcal/mol, al enlace $C_5=O_6$ mientras que en la molécula de $H_3COOH-H_2O$, al formar un enlace de hidrógeno, los pares libres del $O_7$ donan, expresando el valor en energía, 7,28 y 53,66 Kcal/mol , por lo que el enlace O-H se debilita, y en consecuencia aumenta la acidez de dicha molécula.
  La diferencia de acidez entre el $CF_3COOH$ y el $H_3COOH$ es de 24,53 Kcal/mol, hidratando los ácidos de forma específica ($CF_3COOH-H_2$ y $H_3COOH-H_2O$) la diferencia se reduce a 19,89 Kcal/mol. Esto lleva a pensar que el efecto del agua en ese punto, en el ácido trifluoretanoico, no es completo, puesto que el efecto inductivo del los tres halógenos compite con este. En el caso del ácido etanoico, al no tener efecto inductivo por parte de ninugn halógeno, el incremento de la acidez de dicho ácido es mayor al ser hidratado.
  Se ven algunas de las distancias de dichos ácidos en la tabla 3.14.
  \begin{table}[H]
