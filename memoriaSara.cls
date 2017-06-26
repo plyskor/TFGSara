@@ -12,6 +12,7 @@
 \usepackage[spanish,es-tabla]{babel} %Paquete que incluye los idiomas
 \usepackage[utf8]{inputenc}
 \usepackage{mathtools}
+\usepackage{subcaption}
 \usepackage{graphicx} %Paquete de introducción de gráficos
 \graphicspath{ {Imagenes/} }
 \usepackage{fancyhdr} %Paquete de introducción de encabezado
